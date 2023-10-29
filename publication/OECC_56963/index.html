@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="A supplementary derivation for LDS-GNN appendix." />
+  <meta name="description" content="In this work, we propose a high fidelity face swapping method, called HifiFace, which can well preserve the face shape of the source face and generate photo-realistic results. Unlike other existing face swapping works that only use face recognition model to keep the identity similarity, we propose 3D shape-aware identity to control the face shape with the geometric supervision from 3DMM and 3D face reconstruction method. Meanwhile, we introduce the Semantic Facial Fusion module to optimize the combination of encoder and decoder features and make adaptive blending, which makes the results more photo-realistic. Extensive experiments on faces in the wild demonstrate that our method can preserve better identity, especially on the face shape, and can generate more photo-realistic results than previous state-of-the-art methods." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://johann.wang/post/lds-derivation/" />
+  <link rel="alternate" hreflang="en-us" href="https://johann.wang/publication/hififace/" />
 
   
   
@@ -279,7 +279,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://johann.wang/post/lds-derivation/" />
+  <link rel="canonical" href="https://johann.wang/publication/hififace/" />
 
   
   
@@ -290,7 +290,6 @@
   
   
     
-    
   
   
 
@@ -299,21 +298,21 @@
     
     
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Yuhan Wang" />
-  <meta property="og:url" content="https://johann.wang/post/lds-derivation/" />
-  <meta property="og:title" content="Bilevel Programming Derivatives of LDS-GNN | Yuhan Wang" />
-  <meta property="og:description" content="A supplementary derivation for LDS-GNN appendix." /><meta property="og:image" content="https://johann.wang/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://johann.wang/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://johann.wang/publication/hififace/" />
+  <meta property="og:title" content=" HifiFace: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping | Yuhan Wang" />
+  <meta property="og:description" content="In this work, we propose a high fidelity face swapping method, called HifiFace, which can well preserve the face shape of the source face and generate photo-realistic results. Unlike other existing face swapping works that only use face recognition model to keep the identity similarity, we propose 3D shape-aware identity to control the face shape with the geometric supervision from 3DMM and 3D face reconstruction method. Meanwhile, we introduce the Semantic Facial Fusion module to optimize the combination of encoder and decoder features and make adaptive blending, which makes the results more photo-realistic. Extensive experiments on faces in the wild demonstrate that our method can preserve better identity, especially on the face shape, and can generate more photo-realistic results than previous state-of-the-art methods." /><meta property="og:image" content="https://johann.wang/publication/hififace/featured.png" />
+    <meta property="twitter:image" content="https://johann.wang/publication/hififace/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-12-08T00:00:00&#43;00:00"
+        content="2021-06-21T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-12-08T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-07-25T00:00:00&#43;00:00">
   
 
   
@@ -325,8 +324,6 @@
 
 
 
-
-  
 
 
 
@@ -334,15 +331,19 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://johann.wang/post/lds-derivation/"
+    "@id": "https://johann.wang/publication/hififace/"
   },
-  "headline": "Bilevel Programming Derivatives of LDS-GNN",
+  "headline": " HifiFace: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping",
   
-  "datePublished": "2021-12-08T00:00:00Z",
-  "dateModified": "2021-12-08T00:00:00Z",
+  "image": [
+    "https://johann.wang/publication/hififace/featured.png"
+  ],
+  
+  "datePublished": "2021-06-21T00:00:00Z",
+  "dateModified": "2021-07-25T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -357,7 +358,7 @@
       "url": "https://johann.wang/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "A supplementary derivation for LDS-GNN appendix."
+  "description": "In this work, we propose a high fidelity face swapping method, called HifiFace, which can well preserve the face shape of the source face and generate photo-realistic results. Unlike other existing face swapping works that only use face recognition model to keep the identity similarity, we propose 3D shape-aware identity to control the face shape with the geometric supervision from 3DMM and 3D face reconstruction method. Meanwhile, we introduce the Semantic Facial Fusion module to optimize the combination of encoder and decoder features and make adaptive blending, which makes the results more photo-realistic. Extensive experiments on faces in the wild demonstrate that our method can preserve better identity, especially on the face shape, and can generate more photo-realistic results than previous state-of-the-art methods."
 }
 </script>
 
@@ -373,11 +374,11 @@
 
 
 
-  <title>Bilevel Programming Derivatives of LDS-GNN | Yuhan Wang</title>
+  <title> HifiFace: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping | Yuhan Wang</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7135edfffd636821c2fd0655490f511f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c2ae92c5655e0d0df5870762d7d76757" >
 
   
   
@@ -537,7 +538,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -715,7 +716,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/post/"><span>Blog</span></a>
+          <a class="nav-link " href="/post/"><span>Blog</span></a>
         </li>
 
         
@@ -847,7 +848,16 @@
   </div>
 
   <div class="page-body">
-    <article class="article">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -862,20 +872,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Bilevel Programming Derivatives of LDS-GNN</h1>
-
-  
-  <p class="page-subtitle">A supplementary derivation for LDS-GNN appendix.</p>
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1> HifiFace: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -888,7 +904,16 @@
     
 
   <span class="author-highlighted">
-      Yuhan Wang</span>
+      Yuhan Wang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Xu Chen</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Junwei Zhu</span>, <span >
+      Wenqing Chu</span>, <span >
+      Ying Tai</span>, <span >
+      Chengjie Wang</span>, <span >
+      Jilin Li</span>, <span >
+      Yongjian Wu</span>, <span >
+      Feiyue Huang</span>, <span >
+      Rongrong Ji</span>
   </div>
   
   
@@ -899,18 +924,13 @@
     
       
     
-    Dec 8, 2021
+    July 2021
   </span>
   
 
   
 
   
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
 
   
   
@@ -920,85 +940,141 @@
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/notes/">Notes</a></span>
   
 
 </div>
 
-    
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
 
 
 
 
 
   
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2106.09965" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/hififace/cite.bib">
+  Cite
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="http://johann.wang/HifiFace/" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="http://johann.wang/HifiFace" target="_blank" rel="noopener">
+    Project Page</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 236px;">
+  <div style="position: relative">
+    <img src="/publication/hififace/featured_huadfc11713bcfebbcdff2d7934cb6c3d2_2975196_720x0_resize_lanczos_3.png" width="720" height="236" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE"><strong>Unsplash</strong></a></span>
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
-    <div class="article-style">
-      <h2 id="introduction">Introduction</h2>
-<p>Now we have a bilevel programming problem:</p>
-<p>$$\min_{\theta, w_{\theta}} F(w_{\theta},\theta)\mathrm{\ such\ that\ } w_{\theta}\in \arg \min_{w} L(w, \theta) \tag{1}$$</p>
-<p>where for the inner problem, $w$ is learned by</p>
-<p>$$
-w_{\theta, T} = \Phi(w_{\theta, T-1}, \theta) = \Phi(\Phi(w_{\theta,T-2}, \theta), \theta) = \cdots  \tag{2}
-$$</p>
-<p>As is stated in the paper, we follow a process of <em>$\tau$ times inner, once outer</em>. In such process we can <strong>directly</strong> compute the gradients of the outer params, as $\theta$ in our problem.</p>
-<p>Therefore, our major concern now is to compute $\nabla_{\theta}F(w_{\theta, T}, \theta)$, with which we can update $\theta$ using Adam or SGD optimizer.</p>
-<h2 id="derivation">Derivation</h2>
-<p>We have inner param $w \in \mathbb{R}^{N_w}$ and outer param $\theta \in \mathbb{R}^{N_{\theta}}$. $\nabla_{\theta}F(w_{\theta, T}, \theta)$ can be written as</p>
-<p>$$
-\frac{\partial F(w_{\theta, T}, \theta)}{\partial \theta}
-= F_w(w_{\theta, T}, \theta)\cdot \nabla_{\theta}w_{\theta, T} + F_{\theta}(w_{\theta,T},\theta)
-\tag{3}
-$$</p>
-<p>Here $F_w$ and $F_{\theta}$ can both be easily computed using PyTorch, and $\nabla_{\theta}w_{\theta, T}$ builds the connection to inner updater $\Phi$. As the inner param $w$ undergoes $\tau$ times of update, we have to derive its recursive formula:</p>
-<p>$$
-\begin{aligned}
-\nabla_{\theta}w_{\theta,T}
-&amp;= \frac{\partial \Phi(w_{\theta,T-1}, \theta)}{\partial \theta} \\<br>
-&amp;= \Phi_w(w_{\theta,T-1}, \theta)\cdot \nabla_{\theta}w_{\theta,T-1}+\Phi_{\theta}(w_{\theta,T-1},\theta) \\<br>
-&amp;= D_{T-1} \cdot \nabla_{\theta}w_{\theta,T-1} + E_{T-1}
-\end{aligned}
-\tag{4}
-$$</p>
-<p>Here $D$ and $E$ denote the jacobian matrix of $\Phi$ w.r.t $w$ and $\theta$ respectively, who can be efficiently computed via Auto Grad. Therefore, $D \in \mathbb{R}^{N_w \times N_w}$, $E \in \mathbb{R}^{N_w \times N_{\theta}}$ and $\nabla_{\theta}w \in \mathbb{R}^{N_w \times N_{\theta}}$. The dimension of $(4)$ matches.</p>
-<p>If we combine equation $(3)$ and $(4)$, we can derive the equation between $\nabla_{\theta}F(w_{\theta, T}, \theta)$ and $\nabla_{\theta}w_{\theta,T-1}$. Then if we repeat the process of $(4)$ we can get the equation between $\nabla_{\theta}F(w_{\theta, T}, \theta)$ and $\nabla_{\theta}w_{\theta,T-2}$, $\nabla_{\theta}w_{\theta,T-3}$, and so on. Therefore, as is done by LDS-GNN paper, we can try to derive the equation between $\nabla_{\theta}F(w_{\theta, T}, \theta)$ and jacobian matrix $\nabla_{\theta}w_{\theta,t}$ of any round as,</p>
-<p>$$
-\frac{\partial F(w_{\theta, T}, \theta)}{\partial \theta} = P_t \cdot \nabla_{\theta}w_{\theta, t} + G_t
-\tag{5}
-$$</p>
-<p>From equation $(3)$ we know that $P_T = F_w(w_{\theta,T},\theta)$ and $G_T = F_{\theta}(w_{\theta,T}, \theta)$, which are both easy to compute. And if equation $(5)$ holds for $t$, we can derive that for $t-1$ as</p>
-<p>$$
-\begin{aligned}
-\frac{\partial F(w_{\theta, T}, \theta)}{\partial \theta}
-&amp;= P_t \cdot \nabla_{\theta}w_{\theta, t} + G_t \\<br>
-&amp;= P_t \cdot (D_{t-1} \cdot \nabla_{\theta}w_{\theta,t-1} + E_{t-1}) + G_t \\<br>
-&amp;= (P_t \cdot D_{t-1}) \cdot \nabla_{\theta}w_{\theta,t-1} + (P_t \cdot E_{t-1} + G_t) \\<br>
-&amp;= P_{t-1} \cdot \nabla_{\theta}w_{\theta, t-1} + G_{t-1}
-\end{aligned}
-\tag{6}
-$$</p>
-<p>Hence, $P_{t-1} = P_{t} \cdot D_{t-1}$ and $G_{t-1} = P_{t} \cdot E_{t-1} + G_{t}$.</p>
-<p>All we need to do is keep deriving it until $t=T-\tau$, where $\nabla_{\theta} w_{\theta, T-\tau} = \mathbf{0}$ as $w_{\theta, T-\tau}$ has nothing to do with current $\theta$.</p>
-<p>$$
-\begin{aligned}
-\frac{\partial F(w_{\theta, T}, \theta)}{\partial \theta}
-&amp;= P_{T-\tau} \cdot \nabla_{\theta} w_{\theta, T-\tau} + G_{T-\tau} \\<br>
-&amp;= P_{T-\tau} \cdot \nabla_{\theta} w_{\theta, T-\tau} + (P_{T-\tau+1} \cdot E_{T-\tau} + G_{T-\tau+1}) \\<br>
-&amp;= P_{T-\tau+1} \cdot E_{T-\tau} + G_{T-\tau+1}
-\end{aligned}
-\tag{7}
-$$</p>
-<p>Finally, Eq. $(7)$ gives the final formula of $\nabla_{\theta}F(w_{\theta, T}, \theta)$ in a recursion form. Derivations above exactly correspond to <code>Algorithm 2</code> in the supplementary material of LDS-GNN.</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In this work, we propose a high fidelity face swapping method, called HifiFace, which can well preserve the face shape of the source face and generate photo-realistic results. Unlike other existing face swapping works that only use face recognition model to keep the identity similarity, we propose 3D shape-aware identity to control the face shape with the geometric supervision from 3DMM and 3D face reconstruction method. Meanwhile, we introduce the Semantic Facial Fusion module to optimize the combination of encoder and decoder features and make adaptive blending, which makes the results more photo-realistic. Extensive experiments on faces in the wild demonstrate that our method can preserve better identity, especially on the face shape, and can generate more photo-realistic results than previous state-of-the-art methods.</p>
+    
 
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>2021 International Joint Conferences on Artificial Intelligence (IJCAI 2021)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -1009,11 +1085,7 @@ $$</p>
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/academic/">Academic</a>
-  
-  <a class="badge badge-light" href="/tag/graph/">Graph</a>
-  
-  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
   
 </div>
 
@@ -1030,7 +1102,7 @@ $$</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://johann.wang/post/lds-derivation/&amp;text=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://johann.wang/publication/hififace/&amp;text=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1043,7 +1115,7 @@ $$</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://johann.wang/post/lds-derivation/&amp;t=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://johann.wang/publication/hififace/&amp;t=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1056,7 +1128,7 @@ $$</p>
       
       
       <li>
-        <a href="mailto:?subject=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN&amp;body=https://johann.wang/post/lds-derivation/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping&amp;body=https://johann.wang/publication/hififace/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1069,7 +1141,7 @@ $$</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://johann.wang/post/lds-derivation/&amp;title=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://johann.wang/publication/hififace/&amp;title=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1082,7 +1154,7 @@ $$</p>
       
       
       <li>
-        <a href="whatsapp://send?text=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN%20https://johann.wang/post/lds-derivation/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping%20https://johann.wang/publication/hififace/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1095,7 +1167,7 @@ $$</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://johann.wang/post/lds-derivation/&amp;title=Bilevel%20Programming%20Derivatives%20of%20LDS-GNN" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://johann.wang/publication/hififace/&amp;title=%20HifiFace:%203D%20Shape%20and%20Semantic%20Prior%20Guided%20High%20Fidelity%20Face%20Swapping" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1226,6 +1298,60 @@ $$</p>
 
 
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1241,6 +1367,17 @@ $$</p>
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/styleinv/"> High-performance and compact integrated photonic dichroic filters and triplexer realized by an efficient inverse design</a></li>
+      
+      <li><a href="/publication/curricularface/"> CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition</a></li>
+      
+    </ul>
+  </div>
   
 
 
@@ -1248,7 +1385,7 @@ $$</p>
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
